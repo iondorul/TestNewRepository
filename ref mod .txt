@@ -1,0 +1,29 @@
+xcopy "$(ProjectDir)*.ascx" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.ascx   /S /C /Y /D
+xcopy "$(ProjectDir)*.aspx" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.aspx   /S /C /Y /D
+xcopy "$(ProjectDir)App_LocalResources\*.resx" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\App_LocalResources\*.resx   /S /C /Y /D
+xcopy "$(ProjectDir)images\*.*" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\images\*.*   /S /C /Y /D
+xcopy "$(ProjectDir)*.css" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.css   /S /C /Y /D
+xcopy "$(ProjectDir)Providers\DataProviders\SqlDataProvider\*.SqlDataProvider*" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\Providers\DataProviders\SqlDataProvider\*.SqlDataProvider*   /S /C /Y /D
+xcopy "$(ProjectDir)*.dnn" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.dnn   /S /C /Y /D
+copy "$(ProjectDir)license.txt" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\license.txt    /Y
+copy "$(ProjectDir)releasenotes.txt" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\releasenotes.txt    /Y
+xcopy "$(TargetDir)$(TargetFileName)" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D
+xcopy "$(TargetDir)$(TargetName).pdb" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D
+
+
+xcopy "$(ProjectDir)Bin\Debug\*.*" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D
+
+
+xcopy "$(ProjectDir)*.ascx" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.ascx   /S /C /Y /D
+xcopy "$(ProjectDir)*.aspx" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.aspx   /S /C /Y /D
+xcopy "$(ProjectDir)App_LocalResources\*.resx" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\App_LocalResources\*.resx   /S /C /Y /D
+xcopy "$(ProjectDir)images\*.*" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\images\*.*   /S /C /Y /D
+xcopy "$(ProjectDir)*.css" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.css   /S /C /Y /D
+xcopy "$(ProjectDir)Providers\DataProviders\SqlDataProvider\*.SqlDataProvider*" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\Providers\DataProviders\SqlDataProvider\*.SqlDataProvider*   /S /C /Y /D
+xcopy "$(ProjectDir)*.dnn" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\*.dnn   /S /C /Y /D
+copy "$(ProjectDir)license.txt" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\license.txt    /Y
+copy "$(ProjectDir)releasenotes.txt" D:\DNNWebsites\DNN561Source\website\DesktopModules\$(ProjectName)\releasenotes.txt    /Y
+xcopy "$(TargetDir)$(TargetFileName)" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D
+xcopy "$(TargetDir)$(TargetName).pdb" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D
+xcopy "$(TargetDir)$(TargetFileName)" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D
+xcopy "$(TargetDir)$(TargetName).pdb" D:\DNNWebsites\DNN561Source\website\bin   /C /Y /Q /D

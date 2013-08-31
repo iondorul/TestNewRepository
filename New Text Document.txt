@@ -1,2 +1,2 @@
-C++ by Bjarne Stroustrup's
-C by Dennis Ritchie
+C by Dennis Ritchie the father of digital age
+C++ by Bjarne Stroustrup's 

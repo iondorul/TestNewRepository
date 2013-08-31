@@ -1,0 +1,31 @@
+host tartakower (DNN 7.1.1)
+~~~~~~~~~~~~~IIS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DNN~~~~~~~
+
+Error: What to do when an “HTTP Error 503. The service is unavailable”
+
+Run aspnet_regiis.exe using the administrator command prompt. 
+Run aspnet_regiis.exe for the highest available framework on your machine.  
+
+If you have the 4.0 framework, run the .exe from the following folder:
+C:\Windows\Microsoft.NET\Framework\v4.0.21006
+If you have only the 3.5 framework, run the .exe from the following folder:
+C:\Windows\Microsoft.NET\Framework\v2.0.50727
+
+The ASP.NET IIS Registration tool (Aspnet_regiis.exe) is used to
+register ASP.NET applications with Internet Information Services (IIS)
+
+ASP.NET IIS Registration Tool (Aspnet_regiis.exe)
+
+Command Promt(Run As Administrator) 
+
+(http://msdn.microsoft.com/en-us/library/k6h9cz8h(v=vs.100).aspx)
+C:\Windows\Microsoft.NET\Framework\v4.0.21006\aspnet_regiis -ir(msdn install)
+C:\Windows\Microsoft.NET\Framework\v4.0.21006\aspnet_regiis -lv (msdn status)
+(C:\Windows\Microsoft.NET\Framework\v4.0.21006\aspnet_regiis.exe/i)
+
+Data Source=myServerAddress;Initial Catalog=myDataBase;User Id=myUsername;
+Password=myPassword;
+
+[on "myServerAddress", write the name of your installed instance 
+(by default it's .\SQLEXPRESS. Initial catalog = your database name,
+ you'll see it in SSMS on the left after connecting. The rest speaks for itself.]
